@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+#page
+{
+    max-width:800px;
+    margin: 20px auto;
+    padding: 30px ;
+    background-color: #bfa32b
+}
+body
+{
+    font-family: Arial, Heletica, "sans-serif";
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+    background-color : white;
+    margin: 10px
+}
+
+#header /* Styles for Heading */
+{
+    text-align: center;
+    padding: 5px;
+    background-color: #547666
+    
+}
+
+#right-column
+{
+    float: right;
+    width: 350px;
+    text-align: left;
+}
+
+#.list
+{
+    color: #333300;
+}
+
+
+img{
+    border: 40px white;
+}
+
+ul
+{   
+    text-align: left;
+    display: inline-block;
+    padding-left: 0;
+}
+
+ol
+{
+    text-align: left;
+    display : inline-block;
+    padding-left: 0;
+
+}
+
+h1
+{
+    color:white;
+    margin: 0px
+    padding: 5px;
+    font-size: 36px;
+
+}
+
+h2
+{
+    font-size: 30px
+}
+
+h3
+{ 
+    color: white
+}
+

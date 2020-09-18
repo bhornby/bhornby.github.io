@@ -1,0 +1,42 @@
+@charset "utf-8";
+h1
+{
+    color:rgba(10, 10, 10, 0.685);
+    margin: 3px
+    padding: 5px;
+    font-size: 36px;
+
+}
+body
+{
+    font-family: Arial, Heletica, "sans-serif";
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+    background-color : white;
+    border-radius: 25px;
+    margin: 10px
+    
+}
+#header /* Styles for Heading */
+{
+    text-align: center;
+    padding: 5px;
+    border-radius: 25px;
+    background-color: #add6f1
+}
+#page
+{
+    max-width:800px;
+    margin: 20px auto;
+    padding: 30px ;
+    background-color: #0a0a0a;
+    border-radius: 25px
+}
+p
+{
+    color: white;
+    border-radius: 25px;
+    background-color: gray;
+    padding: 5px
+}

@@ -1,0 +1,13 @@
+#Starting the program
+import pygame
+pygame.init()
+
+#Defining colours
+BLACK = (0,0,0)
+WHITE = (255,255,255)
+BLUE = (0,0,255)
+RED = (255,0,0)
+
+#Opening and setting the window size
+size = (700, 500)
+screen = pygame.display.set_mode(size)

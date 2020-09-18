@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Tully Monster</title>
+	<style>
+		body {font-family: arial, "sans-serif";}
+	</style>
+</head>
+<body>
+
+
+<form name="question">
+<p id="box">Question - How long was the Tully Monster?</p> 
+Answer: <input type = "text" name = "answer1">
+<button type="button" onclick="validate()">Show answer</button>>
+</form>
+
+<script>
+	function validate(){
+		var x = document.forms["questions"]["answer1"].value;
+		if(x == ""){
+			document.getElementById("box").style.color="red";
+		}
+		else if (x == "35cm"){
+			alert("Correct!");
+		} else {
+			alert("Wrong!")
+		}
+	}
+</script>
+
+</body>
+</html>

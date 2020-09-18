@@ -1,0 +1,13 @@
+import time
+print("welcome")
+time.sleep(2)
+print("how_are_you?")
+time.sleep(2)
+name=input("enter_name")
+print(name)
+password=input("enter_password")
+print(password)
+time.sleep(15)
+print("permision_granted")
+time.sleep(2)
+print("pornographic_content!")

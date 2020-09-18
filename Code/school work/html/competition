@@ -1,0 +1,25 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <title>Competition!</title>
+</head>
+
+<body>
+    <h2>Win a holiday to New York!</h2>
+
+    <img src = "empirestate.jpeg", alt = "The Empire State Building?">
+
+    <h3>To enter, answer this simple question:</h3>
+
+    <h4>How many bricks are there in the Empire State Building?</h4>
+
+    <ul>
+        <li>5,000,000</li>
+        <li>10,000,000</li>
+        <li>100,000,000</li>
+    </ul>
+</body>
+
+</html>

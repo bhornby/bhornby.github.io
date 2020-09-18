@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScriptTest</title>
+    <link href = "multi.css" rel = "stylesheet"type = "text/css">
+</head>
+<body>
+    <div id="page"><!--Opening page div-->
+        <div id="header"><h1>Multiplication Test</h1></div>
+
+        <p>Click the button to display a random number between 1 and 100.</p>
+
+        <button type="button" onclick="generate()">Generate Number</button>
+
+        <form name="numbers">
+            <input type = "text" name = "number1">  
+            <input type = "text" name = "number2">
+        </form>
+
+
+        <p>Now Times them Together</p>
+
+        <form name="question">
+            <p id="box">What is the product of the two numbers</p> 
+            Answer: <input type = "text" name = "answer1">
+            <button type="button" onclick="validate()">Mark</button>
+        </form>
+
+        <script>
+            function random_number(){
+                var rand_num = Math.floor(Math.random() * 101);
+                return rand_num;
+            }
+            function generate(){
+                document.forms["numbers"]["number1"].value = random_number();
+                document.forms["numbers"]["number2"].value = random_number();
+            }
+            function validate(){
+                var answer = document.forms["numbers"]["number1"].value * document.forms["numbers"]["number2"].value
+                var x = document.forms["question"]["answer1"].value;
+                if(x == ""){
+                    document.getElementById("box").style.color="red";
+                }
+                else if (x == answer ){
+                    alert("Correct!");
+                } else {
+                    alert("Wrong! It's " + answer )
+                }
+            }
+        </script>
+    </div><!--Closing page div-->    
+</body>
+</html>
+
